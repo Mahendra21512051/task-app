@@ -22,5 +22,5 @@ app.use("/clustertaskmanagment/categorymanegment", categoryRoutes);
 app.use("/clustertaskmanagment/taskmanegment", taskRoutes);
 app.use("/clustertaskmanagment", authRoutes);
 
-const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+// const PORT = process.env.PORT || 5001;
+// app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
